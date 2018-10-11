@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Comando
+comment0.text=\n\ Esta\ classe\ eh\ parte\ da\ aplicacao\ "World\ of\ Zuul".\n\ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\ \ \n\n\ Essa\ classe\ guarda\ informacoes\ sobre\ um\ comando\ que\ foi\ digitado\ pelo\ \n\ usuario.\ Um\ comando\ atualmente\ consiste\ em\ duas\ strings\:\ uma\ palavra\n\ de\ comando\ e\ uma\ segunda\ palavra\ (por\ exemplo,\ se\ o\ campo\ for\ "pegar\n\ mapa",\ entao\ as\ duas\ strings\ obviamente\ serao\ "pegar"\ e\ "mapa").\n\ \n\ Isso\ eh\ usado\ assim\:\ comandos\ ja\ estao\ validados\ como\ comandos\ validos\n\ Se\ o\ usuario\ entrou\ um\ comando\ invalido\ (uma\ palavra\ que\ nao\ eh\n\ conhecida)\ entao\ o\ a\ palavra\ de\ comando\ eh\ <null>.\n\n\ Se\ o\ comando\ tem\ so\ uma\ palavra,\ a\ segunda\ palavra\ eh\ <null>\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ (traduzido\ por\ Julio\ Cesar\ Alves)\n\ @version\ 2011.07.31\ (2016.02.01)\n
+comment1.params=primeiraPalavra\ segundaPalavra
+comment1.target=Comando(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Cria\ um\ objeto\ comando.\ Primeira\ e\ segunda\ palavra\ devem\ ser\ \n\ fornecidas,\ mas\ qualquer\ uma\ (ou\ ambas)\ podem\ ser\ null.\n\ @param\ primeiraPalavra\ A\ primeira\ palavra\ do\ comando.\ Null\ se\n\ \t\t\t\t\t\t\ \ o\ comando\ nao\ foi\ reconhecido\n\ @param\ segundaPalavra\ A\ segunda\ palavra\ do\ comando.\n
+comment2.params=
+comment2.target=java.lang.String\ getPalavraDeComando()
+comment2.text=\n\ Retorna\ a\ palavra\ de\ comando\ (a\ primeira\ palavra)\ deste\ comando.\n\ Se\ o\ comando\ nao\ foi\ entendido,\ o\ resultado\ eh\ null.\n\ @return\ A\ palavra\ de\ comando.\n
+comment3.params=
+comment3.target=java.lang.String\ getSegundaPalavra()
+comment3.text=\n\ @return\ A\ segunda\ palavra\ deste\ comando.\ Retorna\ null\ se\ \n\ nao\ existe\ segunda\ palavra.\n
+comment4.params=
+comment4.target=boolean\ ehDesconhecido()
+comment4.text=\n\ @return\ true\ se\ o\ comando\ nao\ foi\ entendido.\n
+comment5.params=
+comment5.target=boolean\ temSegundaPalavra()
+comment5.text=\n\ @return\ true\ se\ o\ comando\ tem\ uma\ segunda\ palavra.\n
+numComments=6

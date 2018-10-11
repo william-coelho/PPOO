@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Ambiente
+comment0.text=\n\ Classe\ Ambiente\ -\ um\ ambiente\ em\ um\ jogo\ adventure.\n\n\ Esta\ classe\ eh\ parte\ da\ aplicacao\ "World\ of\ Zuul".\n\ "World\ of\ Zuul"\ eh\ um\ jogo\ de\ aventura\ muito\ simples,\ baseado\ em\ texto.\ \ \n\n\ Um\ "Ambiente"\ representa\ uma\ localizacao\ no\ cenario\ do\ jogo.\ Ele\ eh\n\ conectado\ aos\ outros\ ambientes\ atraves\ de\ saidas.\ As\ saidas\ sao\n\ nomeadas\ como\ norte,\ sul,\ leste\ e\ oeste.\ Para\ cada\ direcao,\ o\ ambiente\n\ guarda\ uma\ referencia\ para\ o\ ambiente\ vizinho,\ ou\ null\ se\ nao\ ha\n\ saida\ naquela\ direcao.\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\ (traduzido\ por\ Julio\ Cesar\ Alves)\n\ @version\ 2011.07.31\ (2016.02.01)\n
+comment1.params=descricao
+comment1.target=Ambiente(java.lang.String)
+comment1.text=\n\ Cria\ um\ ambiente\ com\ a\ "descricao"\ passada.\ Inicialmente,\ ele\n\ nao\ tem\ saidas.\ "descricao"\ eh\ algo\ como\ "uma\ cozinha"\ ou\n\ "\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\n\ "um\ jardim\ aberto".\n\ @param\ descricao\ A\ descricao\ do\ ambiente.\n
+comment2.params=norte\ leste\ sul\ oeste
+comment2.target=void\ ajustarSaidas(Ambiente,\ Ambiente,\ Ambiente,\ Ambiente)
+comment2.text=\n\ Define\ as\ saidas\ do\ ambiente.\ Cada\ direcao\ ou\ leva\ a\ um\n\ outro\ ambiente\ ou\ eh\ null\ (nenhuma\ saida\ para\ la).\n\ @param\ norte\ A\ saida\ norte.\n\ @param\ leste\ A\ saida\ leste.\n\ @param\ sul\ A\ saida\ sul.\n\ @param\ oeste\ A\ saida\ oeste.\n
+comment3.params=
+comment3.target=java.lang.String\ getDescricao()
+comment3.text=\n\ @return\ A\ descricao\ do\ ambiente.\n
+numComments=4
